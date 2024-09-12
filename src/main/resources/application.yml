@@ -1,0 +1,15 @@
+server:
+    port: 9090
+spring:
+    application:
+        name: welcomemvc
+    datasource:
+      username: root
+      password: 1234
+      url: jdbc:mysql://localhost:3306/orders
+
+    jpa:
+     show-sql: true
+     hibernate:
+       ddl-auto: update
+     database-platform: org.hibernate.dialect.MySQLDialect
